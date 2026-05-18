@@ -3,7 +3,7 @@ use bevy::diagnostic::{DiagnosticsStore, FrameTimeDiagnosticsPlugin};
 use bevy::prelude::*;
 use bevy_ratatui::event::KeyMessage;
 use bevy_ratatui::kitty::KittyEnabled;
-use crossterm::event::{KeyCode, KeyEventKind};
+use bevy_ratatui::crossterm::event::{KeyCode, KeyEventKind};
 use log::LevelFilter;
 use ratatui::Frame;
 use ratatui::layout::Constraint;

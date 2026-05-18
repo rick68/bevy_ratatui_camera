@@ -19,8 +19,8 @@ use bevy_ratatui_camera::RatatuiCameraEdgeDetection;
 use bevy_ratatui_camera::RatatuiCameraPlugin;
 use bevy_ratatui_camera::RatatuiCameraStrategy;
 use bevy_ratatui_camera::RatatuiCameraWidget;
-use crossterm::event::KeyCode;
-use crossterm::event::KeyEventKind;
+use bevy_ratatui::crossterm::event::KeyCode;
+use bevy_ratatui::crossterm::event::KeyEventKind;
 use log::LevelFilter;
 use ratatui::widgets::Widget;
 

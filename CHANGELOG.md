@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Other
+
+- bevy 0.18.1 migration (RenderTarget is now a component, PollType API, BindGroupLayoutDescriptor for custom render pipelines, ratatui 0.30 compat)
+
 ## [0.16.0](https://github.com/cxreiff/bevy_ratatui_camera/compare/v0.15.0...v0.16.0) - 2025-11-16
 
 ### Other

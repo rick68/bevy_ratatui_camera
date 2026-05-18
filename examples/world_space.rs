@@ -18,7 +18,7 @@ use bevy_ratatui_camera::RatatuiCameraDepthDetection;
 use bevy_ratatui_camera::RatatuiCameraLastArea;
 use bevy_ratatui_camera::RatatuiCameraPlugin;
 use bevy_ratatui_camera::RatatuiCameraWidget;
-use crossterm::event::MouseEventKind;
+use bevy_ratatui::crossterm::event::MouseEventKind;
 use log::LevelFilter;
 use ratatui::buffer::Buffer;
 use ratatui::layout::Rect;
